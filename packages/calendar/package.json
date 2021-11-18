@@ -1,6 +1,6 @@
 {
   "name": "@simspace/nivo-calendar",
-  "version": "0.74.0",
+  "version": "0.74.1",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -29,15 +29,15 @@
     "!dist/tsconfig.tsbuildinfo"
   ],
   "dependencies": {
-    "@simspace/nivo-legends": "0.74.0",
-    "@simspace/nivo-tooltip": "0.74.0",
+    "@simspace/nivo-legends": "0.74.1",
+    "@simspace/nivo-tooltip": "0.74.1",
     "d3-scale": "^3.2.3",
     "d3-time": "^1.0.10",
     "d3-time-format": "^3.0.0",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@simspace/nivo-core": "0.74.0"
+    "@simspace/nivo-core": "0.74.1"
   },
   "peerDependencies": {
     "@simspace/nivo-core": "0.74.0",

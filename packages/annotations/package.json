@@ -1,6 +1,6 @@
 {
   "name": "@simspace/nivo-annotations",
-  "version": "0.74.0",
+  "version": "0.74.1",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -28,12 +28,12 @@
     "!dist/tsconfig.tsbuildinfo"
   ],
   "dependencies": {
-    "@simspace/nivo-colors": "0.74.0",
     "@react-spring/web": "9.2.6",
+    "@simspace/nivo-colors": "0.74.1",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@simspace/nivo-core": "0.74.0"
+    "@simspace/nivo-core": "0.74.1"
   },
   "peerDependencies": {
     "@simspace/nivo-core": "0.74.0",

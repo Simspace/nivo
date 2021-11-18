@@ -1,6 +1,6 @@
 {
   "name": "@simspace/nivo-pie",
-  "version": "0.74.0",
+  "version": "0.74.1",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -29,14 +29,14 @@
     "!dist/tsconfig.tsbuildinfo"
   ],
   "dependencies": {
-    "@simspace/nivo-arcs": "0.74.0",
-    "@simspace/nivo-colors": "0.74.0",
-    "@simspace/nivo-legends": "0.74.0",
-    "@simspace/nivo-tooltip": "0.74.0",
+    "@simspace/nivo-arcs": "0.74.1",
+    "@simspace/nivo-colors": "0.74.1",
+    "@simspace/nivo-legends": "0.74.1",
+    "@simspace/nivo-tooltip": "0.74.1",
     "d3-shape": "^1.3.5"
   },
   "devDependencies": {
-    "@simspace/nivo-core": "0.74.0",
+    "@simspace/nivo-core": "0.74.1",
     "@types/d3-shape": "^2.0.0"
   },
   "peerDependencies": {

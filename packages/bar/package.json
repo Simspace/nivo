@@ -1,6 +1,6 @@
 {
   "name": "@simspace/nivo-bar",
-  "version": "0.74.0",
+  "version": "0.74.1",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -29,19 +29,19 @@
     "!dist/tsconfig.tsbuildinfo"
   ],
   "dependencies": {
-    "@simspace/nivo-annotations": "0.74.0",
-    "@simspace/nivo-axes": "0.74.0",
-    "@simspace/nivo-colors": "0.74.0",
-    "@simspace/nivo-legends": "0.74.0",
-    "@simspace/nivo-scales": "0.74.0",
-    "@simspace/nivo-tooltip": "0.74.0",
     "@react-spring/web": "9.2.6",
+    "@simspace/nivo-annotations": "0.74.1",
+    "@simspace/nivo-axes": "0.74.1",
+    "@simspace/nivo-colors": "0.74.1",
+    "@simspace/nivo-legends": "0.74.1",
+    "@simspace/nivo-scales": "0.74.1",
+    "@simspace/nivo-tooltip": "0.74.1",
     "d3-scale": "^3.2.3",
     "d3-shape": "^1.2.2",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@simspace/nivo-core": "0.74.0"
+    "@simspace/nivo-core": "0.74.1"
   },
   "peerDependencies": {
     "@simspace/nivo-core": "0.74.0",

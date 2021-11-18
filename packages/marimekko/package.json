@@ -1,6 +1,6 @@
 {
   "name": "@simspace/nivo-marimekko",
-  "version": "0.74.0",
+  "version": "0.74.1",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -21,16 +21,16 @@
     "!dist/tsconfig.tsbuildinfo"
   ],
   "dependencies": {
-    "@simspace/nivo-axes": "0.74.0",
-    "@simspace/nivo-colors": "0.74.0",
-    "@simspace/nivo-legends": "0.74.0",
     "@react-spring/web": "9.2.6",
+    "@simspace/nivo-axes": "0.74.1",
+    "@simspace/nivo-colors": "0.74.1",
+    "@simspace/nivo-legends": "0.74.1",
     "d3-scale": "^3.2.3",
     "d3-shape": "^1.3.5",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@simspace/nivo-core": "0.74.0",
+    "@simspace/nivo-core": "0.74.1",
     "@types/d3-scale": "^3.2.2",
     "@types/d3-shape": "^2.0.0"
   },

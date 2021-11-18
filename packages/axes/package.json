@@ -1,6 +1,6 @@
 {
   "name": "@simspace/nivo-axes",
-  "version": "0.74.0",
+  "version": "0.74.1",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -27,13 +27,13 @@
     "!dist/tsconfig.tsbuildinfo"
   ],
   "dependencies": {
-    "@simspace/nivo-scales": "0.74.0",
     "@react-spring/web": "9.2.6",
+    "@simspace/nivo-scales": "0.74.1",
     "d3-format": "^1.4.4",
     "d3-time-format": "^3.0.0"
   },
   "devDependencies": {
-    "@simspace/nivo-core": "0.74.0",
+    "@simspace/nivo-core": "0.74.1",
     "@types/d3-format": "^1.4.1",
     "@types/d3-time-format": "^2.3.1"
   },
