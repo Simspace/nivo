@@ -46,7 +46,7 @@ export const useArcCentersTransition = <Datum extends DatumWithArc, ExtraProps =
     extra?: TransitionExtra<Datum, ExtraProps>
 ) => {
     // center label of root node
-    var dataFixedCenterLabel = data.map(d =>
+    const dataFixedCenterLabel = data.map(d =>
         d.arc.innerRadius === 0 ? { ...d, arc: { ...d.arc, outerRadius: 0 } } : d
     )
 
