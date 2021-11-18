@@ -1,4 +1,4 @@
-import { Annotation } from '@nivo/annotations'
+import { Annotation } from '@simspace/nivo-annotations'
 import { useScatterPlotAnnotations } from './hooks'
 import { ScatterPlotCommonProps, ScatterPlotDatum, ScatterPlotNodeData } from './types'
 

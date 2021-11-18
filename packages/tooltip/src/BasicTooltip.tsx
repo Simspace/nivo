@@ -1,5 +1,5 @@
 import { memo, ReactNode } from 'react'
-import { useTheme, ValueFormat, useValueFormatter } from '@nivo/core'
+import { useTheme, ValueFormat, useValueFormatter } from '@simspace/nivo-core'
 import { Chip } from './Chip'
 
 interface BasicTooltipProps {

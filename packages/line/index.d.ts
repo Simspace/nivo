@@ -16,17 +16,17 @@ import {
     SvgDefsAndFill,
     ValueFormat,
     DatumValue as CoreDatumValue,
-} from '@nivo/core'
-import { OrdinalColorScaleConfig } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
-import { ScaleSpec, Scale, TicksSpec } from '@nivo/scales'
-import { AxisProps } from '@nivo/axes'
-import { CrosshairType } from '@nivo/tooltip'
+} from '@simspace/nivo-core'
+import { OrdinalColorScaleConfig } from '@simspace/nivo-colors'
+import { LegendProps } from '@simspace/nivo-legends'
+import { ScaleSpec, Scale, TicksSpec } from '@simspace/nivo-scales'
+import { AxisProps } from '@simspace/nivo-axes'
+import { CrosshairType } from '@simspace/nivo-tooltip'
 import { Line as D3Line } from 'd3-shape'
 
 type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>
 
-declare module '@nivo/line' {
+declare module '@simspace/nivo-line' {
     export type DatumValue = CoreDatumValue
 
     export interface Datum {

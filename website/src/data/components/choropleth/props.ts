@@ -1,4 +1,4 @@
-import { GeoMapDefaultProps, ChoroplethDefaultProps } from '@nivo/geo'
+import { GeoMapDefaultProps, ChoroplethDefaultProps } from '@simspace/nivo-geo'
 import { getLegendsProps, groupProperties } from '../../../lib/componentProperties'
 import { props as geoProps } from '../geo/props'
 import { ChartProperty } from '../../../types'

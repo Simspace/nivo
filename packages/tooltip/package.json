@@ -1,5 +1,5 @@
 {
-  "name": "@nivo/tooltip",
+  "name": "@simspace/nivo-tooltip",
   "version": "0.74.0",
   "license": "MIT",
   "author": {
@@ -24,10 +24,10 @@
     "@react-spring/web": "9.2.6"
   },
   "devDependencies": {
-    "@nivo/core": "0.74.0"
+    "@simspace/nivo-core": "0.74.0"
   },
   "peerDependencies": {
-    "@nivo/core": "0.74.0"
+    "@simspace/nivo-core": "0.74.0"
   },
   "publishConfig": {
     "access": "public"

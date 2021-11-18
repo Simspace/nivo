@@ -1,4 +1,4 @@
-import { positionFromAngle, degreesToRadians } from '@nivo/core'
+import { positionFromAngle, degreesToRadians } from '@simspace/nivo-core'
 
 /**
  * Computes the bounding box for a circle arc.

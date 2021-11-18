@@ -1,5 +1,5 @@
 {
-  "name": "@nivo/axes",
+  "name": "@simspace/nivo-axes",
   "version": "0.74.0",
   "license": "MIT",
   "author": {
@@ -27,18 +27,18 @@
     "!dist/tsconfig.tsbuildinfo"
   ],
   "dependencies": {
-    "@nivo/scales": "0.74.0",
+    "@simspace/nivo-scales": "0.74.0",
     "@react-spring/web": "9.2.6",
     "d3-format": "^1.4.4",
     "d3-time-format": "^3.0.0"
   },
   "devDependencies": {
-    "@nivo/core": "0.74.0",
+    "@simspace/nivo-core": "0.74.0",
     "@types/d3-format": "^1.4.1",
     "@types/d3-time-format": "^2.3.1"
   },
   "peerDependencies": {
-    "@nivo/core": "0.74.0",
+    "@simspace/nivo-core": "0.74.0",
     "prop-types": ">= 15.5.10 < 16.0.0",
     "react": ">= 16.14.0 < 18.0.0"
   },

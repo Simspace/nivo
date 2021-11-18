@@ -1,6 +1,6 @@
 // @ts-ignore: the core package should be migrated to TS
-import { areaCurvePropKeys, stackOrderPropKeys, stackOffsetPropKeys } from '@nivo/core'
-import { defaultProps, svgDefaultProps } from '@nivo/stream'
+import { areaCurvePropKeys, stackOrderPropKeys, stackOffsetPropKeys } from '@simspace/nivo-core'
+import { defaultProps, svgDefaultProps } from '@simspace/nivo-stream'
 import {
     themeProperty,
     axesProperties,

@@ -1,4 +1,4 @@
-import { AreaBumpDefaultProps as defaults } from '@nivo/bump'
+import { AreaBumpDefaultProps as defaults } from '@simspace/nivo-bump'
 import {
     themeProperty,
     axesProperties,

@@ -7,10 +7,10 @@ import {
     stackOffsetWiggle,
 } from 'd3-shape'
 import { ScaleLinear } from 'd3-scale'
-import { Box, Dimensions, Theme, SvgDefsAndFill, ModernMotionProps, ValueFormat } from '@nivo/core'
-import { AxisProps } from '@nivo/axes'
-import { OrdinalColorScaleConfig, InheritedColorConfig } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
+import { Box, Dimensions, Theme, SvgDefsAndFill, ModernMotionProps, ValueFormat } from '@simspace/nivo-core'
+import { AxisProps } from '@simspace/nivo-axes'
+import { OrdinalColorScaleConfig, InheritedColorConfig } from '@simspace/nivo-colors'
+import { LegendProps } from '@simspace/nivo-legends'
 
 export type DatumId = string | number
 export type DatumValue = number

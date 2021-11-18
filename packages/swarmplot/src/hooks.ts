@@ -1,10 +1,10 @@
 import { useCallback, useMemo } from 'react'
 import { ScaleOrdinal } from 'd3-scale'
-import { usePropertyAccessor, useValueFormatter } from '@nivo/core'
-import { useOrdinalColorScale } from '@nivo/colors'
-import { AnnotationMatcher, useAnnotations } from '@nivo/annotations'
-import { useTooltip } from '@nivo/tooltip'
-import { ScaleLinear, ScaleLinearSpec, ScaleTime, ScaleTimeSpec } from '@nivo/scales'
+import { usePropertyAccessor, useValueFormatter } from '@simspace/nivo-core'
+import { useOrdinalColorScale } from '@simspace/nivo-colors'
+import { AnnotationMatcher, useAnnotations } from '@simspace/nivo-annotations'
+import { useTooltip } from '@simspace/nivo-tooltip'
+import { ScaleLinear, ScaleLinearSpec, ScaleTime, ScaleTimeSpec } from '@simspace/nivo-scales'
 import {
     computeValueScale,
     computeOrdinalScale,

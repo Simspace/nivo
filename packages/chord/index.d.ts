@@ -7,13 +7,13 @@
  * file that was distributed with this source code.
  */
 import { Component } from 'react'
-import { Box, MotionProps, Dimensions, Theme } from '@nivo/core'
-import { OrdinalColorScaleConfig, InheritedColorConfig } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
+import { Box, MotionProps, Dimensions, Theme } from '@simspace/nivo-core'
+import { OrdinalColorScaleConfig, InheritedColorConfig } from '@simspace/nivo-colors'
+import { LegendProps } from '@simspace/nivo-legends'
 
 type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>
 
-declare module '@nivo/chord' {
+declare module '@simspace/nivo-chord' {
     export interface ArcData {
         id: string
         index: number

@@ -1,4 +1,4 @@
-import { svgDefaultProps, sankeyAlignmentPropKeys } from '@nivo/sankey'
+import { svgDefaultProps, sankeyAlignmentPropKeys } from '@simspace/nivo-sankey'
 import { themeProperty, motionProperties, groupProperties } from '../../../lib/componentProperties'
 import { ChartProperty } from '../../../types'
 

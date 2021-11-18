@@ -1,4 +1,4 @@
-import { ScaleBandSpec, ScaleBand, computeScale } from '@nivo/scales'
+import { ScaleBandSpec, ScaleBand, computeScale } from '@simspace/nivo-scales'
 
 /**
  * Generates indexed scale.

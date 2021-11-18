@@ -2,7 +2,7 @@ import { mount } from 'enzyme'
 // @ts-ignore
 import { Radar, RadarSvgProps } from '../src'
 import { RadarSliceTooltipProps } from '../dist/types'
-import { LegendProps } from '@nivo/legends'
+import { LegendProps } from '@simspace/nivo-legends'
 
 type TestDatum = {
     A: number

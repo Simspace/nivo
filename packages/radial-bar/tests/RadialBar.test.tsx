@@ -1,6 +1,6 @@
 import { mount } from 'enzyme'
-import { degreesToRadians } from '@nivo/core'
-import { DatumWithArcAndColor } from '@nivo/arcs'
+import { degreesToRadians } from '@simspace/nivo-core'
+import { DatumWithArcAndColor } from '@simspace/nivo-arcs'
 // @ts-ignore
 import { RadialBar, RadialBarSvgProps, ComputedBar, RadialBarTooltipProps } from '../src'
 

@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Meta } from '@storybook/react'
 import { withKnobs } from '@storybook/addon-knobs'
-import { Theme } from '@nivo/core'
-import { categoricalColorSchemes } from '@nivo/colors'
+import { Theme } from '@simspace/nivo-core'
+import { categoricalColorSchemes } from '@simspace/nivo-colors'
 // @ts-ignore
 import { RadialBar, RadialBarSvgProps, RadialBarCustomLayerProps, svgDefaultProps } from '../src'
 

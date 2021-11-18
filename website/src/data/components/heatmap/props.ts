@@ -1,4 +1,4 @@
-import { HeatMapDefaultProps as defaults } from '@nivo/heatmap'
+import { HeatMapDefaultProps as defaults } from '@simspace/nivo-heatmap'
 import {
     themeProperty,
     axesProperties,

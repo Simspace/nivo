@@ -1,4 +1,4 @@
-import { BumpDefaultProps as defaults } from '@nivo/bump'
+import { BumpDefaultProps as defaults } from '@simspace/nivo-bump'
 import {
     themeProperty,
     motionProperties,

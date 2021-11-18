@@ -1,4 +1,4 @@
-import { ResponsiveFunnel } from '@nivo/funnel'
+import { ResponsiveFunnel } from '@simspace/nivo-funnel'
 import { random } from '../utils'
 import { useChart } from '../hooks'
 

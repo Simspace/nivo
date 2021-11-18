@@ -3,7 +3,7 @@ import { Interpolation, SpringConfig } from '@react-spring/web'
 import { CurveFactory } from 'd3-shape'
 import { ComponentType } from 'react'
 
-declare module '@nivo/core' {
+declare module '@simspace/nivo-core' {
     export type DatumValue = string | number | Date
 
     export interface Dimensions {

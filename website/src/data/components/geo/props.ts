@@ -1,4 +1,4 @@
-import { GeoMapDefaultProps } from '@nivo/geo'
+import { GeoMapDefaultProps } from '@simspace/nivo-geo'
 import { themeProperty, defsProperties } from '../../../lib/componentProperties'
 import { ChartProperty } from '../../../types'
 

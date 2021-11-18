@@ -1,8 +1,8 @@
 import { BarItem } from './BarItem'
 import { BarTooltip } from './BarTooltip'
 import { ComputedDatum } from './types'
-import { InheritedColorConfig, OrdinalColorScaleConfig } from '@nivo/colors'
-import { ScaleBandSpec, ScaleSpec } from '@nivo/scales'
+import { InheritedColorConfig, OrdinalColorScaleConfig } from '@simspace/nivo-colors'
+import { ScaleBandSpec, ScaleSpec } from '@simspace/nivo-scales'
 
 export const defaultProps = {
     indexBy: 'id',

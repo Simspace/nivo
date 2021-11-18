@@ -3,7 +3,7 @@ import random from 'lodash/random'
 import { Meta } from '@storybook/react'
 import { withKnobs, select } from '@storybook/addon-knobs'
 // @ts-ignore
-import { areaCurvePropKeys } from '@nivo/core'
+import { areaCurvePropKeys } from '@simspace/nivo-core'
 // @ts-ignore
 import { Stream } from '../src'
 

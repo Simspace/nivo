@@ -2,8 +2,8 @@ import {
   HeatMapDatum,
   ResponsiveHeatMap,
   ResponsiveHeatMapCanvas,
-} from '@nivo/heatmap'
-import { generateCountriesData } from '@nivo/generators'
+} from '@simspace/nivo-heatmap'
+import { generateCountriesData } from '@simspace/nivo-generators'
 import { useChart } from '../hooks'
 
 const keys = [

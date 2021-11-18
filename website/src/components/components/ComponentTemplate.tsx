@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useMemo } from 'react'
-import { Theme as NivoTheme } from '@nivo/core'
+import { Theme as NivoTheme } from '@simspace/nivo-core'
 import { Seo } from '../Seo'
 import Layout from '../Layout'
 import { useTheme } from '../../theming/context'

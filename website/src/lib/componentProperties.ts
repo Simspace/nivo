@@ -1,6 +1,6 @@
 import upperFirst from 'lodash/upperFirst'
 import uniq from 'lodash/uniq'
-import { defaultAnimate, defaultMotionStiffness, defaultMotionDamping } from '@nivo/core'
+import { defaultAnimate, defaultMotionStiffness, defaultMotionDamping } from '@simspace/nivo-core'
 import { Flavor, ChartProperty } from '../types'
 
 export const themeProperty = (flavors: Flavor[]): ChartProperty => ({

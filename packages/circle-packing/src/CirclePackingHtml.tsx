@@ -1,6 +1,6 @@
 import { createElement, Fragment, ReactNode } from 'react'
-import { Container, useDimensions } from '@nivo/core'
-import { InheritedColorConfig, OrdinalColorScaleConfig } from '@nivo/colors'
+import { Container, useDimensions } from '@simspace/nivo-core'
+import { InheritedColorConfig, OrdinalColorScaleConfig } from '@simspace/nivo-colors'
 import { CirclePackingHtmlProps, CirclePackingLayerId, ComputedDatum } from './types'
 import { useCirclePacking, useCirclePackingLayerContext, useCirclePackingZoom } from './hooks'
 import { Circles } from './Circles'

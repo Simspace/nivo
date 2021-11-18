@@ -1,6 +1,6 @@
 import { memo } from 'react'
 import { SpringValues, animated } from '@react-spring/web'
-import { useTheme } from '@nivo/core'
+import { useTheme } from '@simspace/nivo-core'
 
 export const GridLine = memo(
     ({

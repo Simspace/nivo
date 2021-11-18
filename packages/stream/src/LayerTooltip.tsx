@@ -1,4 +1,4 @@
-import { BasicTooltip } from '@nivo/tooltip'
+import { BasicTooltip } from '@simspace/nivo-tooltip'
 import { TooltipProps } from './types'
 
 export const LayerTooltip = ({ layer }: TooltipProps) => (

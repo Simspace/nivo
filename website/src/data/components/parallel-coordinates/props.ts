@@ -1,5 +1,5 @@
-import { lineCurvePropKeys } from '@nivo/core'
-import { commonDefaultProps as defaults } from '@nivo/parallel-coordinates'
+import { lineCurvePropKeys } from '@simspace/nivo-core'
+import { commonDefaultProps as defaults } from '@simspace/nivo-parallel-coordinates'
 import { themeProperty, motionProperties, groupProperties } from '../../../lib/componentProperties'
 
 const props = [

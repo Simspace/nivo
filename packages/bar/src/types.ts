@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { AnnotationMatcher } from '@nivo/annotations'
-import { AxisProps, CanvasAxisProp, GridValues } from '@nivo/axes'
+import { AnnotationMatcher } from '@simspace/nivo-annotations'
+import { AxisProps, CanvasAxisProp, GridValues } from '@simspace/nivo-axes'
 import {
     Box,
     CartesianMarkerProps,
@@ -11,10 +11,10 @@ import {
     SvgDefsAndFill,
     Theme,
     ValueFormat,
-} from '@nivo/core'
-import { InheritedColorConfig, OrdinalColorScaleConfig } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
-import { Scale, ScaleSpec, ScaleBandSpec } from '@nivo/scales'
+} from '@simspace/nivo-core'
+import { InheritedColorConfig, OrdinalColorScaleConfig } from '@simspace/nivo-colors'
+import { LegendProps } from '@simspace/nivo-legends'
+import { Scale, ScaleSpec, ScaleBandSpec } from '@simspace/nivo-scales'
 import { SpringValues } from '@react-spring/web'
 
 export interface BarDatum {

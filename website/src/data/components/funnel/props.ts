@@ -1,4 +1,4 @@
-import { svgDefaultProps as defaults } from '@nivo/funnel'
+import { svgDefaultProps as defaults } from '@simspace/nivo-funnel'
 import { themeProperty, groupProperties, motionProperties } from '../../../lib/componentProperties'
 import { ChartProperty } from '../../../types'
 

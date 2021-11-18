@@ -6,12 +6,12 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import { AxisProps } from '@nivo/axes'
+import { AxisProps } from '@simspace/nivo-axes'
 import { Component, MouseEvent } from 'react'
-import { Dimensions, Box, Theme, MotionProps, SvgDefsAndFill, CssMixBlendMode } from '@nivo/core'
-import { OrdinalColorScaleConfig, InheritedColorConfig } from '@nivo/colors'
+import { Dimensions, Box, Theme, MotionProps, SvgDefsAndFill, CssMixBlendMode } from '@simspace/nivo-core'
+import { OrdinalColorScaleConfig, InheritedColorConfig } from '@simspace/nivo-colors'
 
-declare module '@nivo/bump' {
+declare module '@simspace/nivo-bump' {
     type SerieDerivedProp<Serie, T> = (serie: Serie) => T
 
     export interface BumpInputDatum {

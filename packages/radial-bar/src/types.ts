@@ -6,12 +6,12 @@ import {
     ModernMotionProps,
     PropertyAccessor,
     ValueFormat,
-} from '@nivo/core'
-import { Arc, ArcGenerator, ArcLabelsProps, ArcTransitionMode } from '@nivo/arcs'
-import { InheritedColorConfig, OrdinalColorScaleConfig } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
-import { ScaleLinear, ScaleBand } from '@nivo/scales'
-import { RadialAxisConfig, CircularAxisConfig } from '@nivo/polar-axes'
+} from '@simspace/nivo-core'
+import { Arc, ArcGenerator, ArcLabelsProps, ArcTransitionMode } from '@simspace/nivo-arcs'
+import { InheritedColorConfig, OrdinalColorScaleConfig } from '@simspace/nivo-colors'
+import { LegendProps } from '@simspace/nivo-legends'
+import { ScaleLinear, ScaleBand } from '@simspace/nivo-scales'
+import { RadialAxisConfig, CircularAxisConfig } from '@simspace/nivo-polar-axes'
 
 export interface RadialBarDatum {
     x: string

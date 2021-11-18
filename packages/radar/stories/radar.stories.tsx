@@ -1,7 +1,7 @@
 import { Meta } from '@storybook/react'
 import { withKnobs, select } from '@storybook/addon-knobs'
-import { generateWinesTastes } from '@nivo/generators'
-import { ClosedCurveFactoryId, patternDotsDef, patternSquaresDef } from '@nivo/core'
+import { generateWinesTastes } from '@simspace/nivo-generators'
+import { ClosedCurveFactoryId, patternDotsDef, patternSquaresDef } from '@simspace/nivo-core'
 // @ts-ignore
 import { Radar, GridLabelProps } from '../src'
 

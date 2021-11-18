@@ -1,4 +1,4 @@
-import { InheritedColorConfig } from '@nivo/colors'
+import { InheritedColorConfig } from '@simspace/nivo-colors'
 import { ComputedBar, RadialBarLayerId } from './types'
 import { RadialBarTooltip } from './RadialBarTooltip'
 

@@ -1,4 +1,4 @@
-import { BoxLegendSvg } from '@nivo/legends'
+import { BoxLegendSvg } from '@simspace/nivo-legends'
 import { BarLegendProps, LegendData } from './types'
 
 interface BarLegendsProps {

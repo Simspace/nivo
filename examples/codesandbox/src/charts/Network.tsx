@@ -2,8 +2,8 @@ import {
   ComputedNode,
   ResponsiveNetwork,
   ResponsiveNetworkCanvas,
-} from '@nivo/network'
-import { generateNetworkData } from '@nivo/generators'
+} from '@simspace/nivo-network'
+import { generateNetworkData } from '@simspace/nivo-generators'
 import { useChart } from '../hooks'
 
 const props = {

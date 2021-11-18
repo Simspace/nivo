@@ -1,4 +1,4 @@
-import { defaultProps } from '@nivo/bullet'
+import { defaultProps } from '@simspace/nivo-bullet'
 import { themeProperty, motionProperties, groupProperties } from '../../../lib/componentProperties'
 import { ChartProperty } from '../../../types'
 

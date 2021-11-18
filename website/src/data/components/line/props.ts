@@ -1,5 +1,5 @@
-import { lineCurvePropKeys } from '@nivo/core'
-import { LineDefaultProps as defaults } from '@nivo/line'
+import { lineCurvePropKeys } from '@simspace/nivo-core'
+import { LineDefaultProps as defaults } from '@simspace/nivo-line'
 import {
     themeProperty,
     axesProperties,

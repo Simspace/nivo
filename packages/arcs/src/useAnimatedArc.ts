@@ -1,5 +1,5 @@
 import { useSpring } from '@react-spring/web'
-import { useMotionConfig } from '@nivo/core'
+import { useMotionConfig } from '@simspace/nivo-core'
 import { Arc, ArcGenerator } from './types'
 import { interpolateArc } from './interpolateArc'
 

@@ -1,5 +1,5 @@
 import { createElement, memo, useCallback } from 'react'
-import { useTooltip } from '@nivo/tooltip'
+import { useTooltip } from '@simspace/nivo-tooltip'
 import { TimeRangeDayProps } from './types'
 
 export const TimeRangeDay = memo(

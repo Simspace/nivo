@@ -1,4 +1,4 @@
-import { svgDefaultProps } from '@nivo/bar'
+import { svgDefaultProps } from '@simspace/nivo-bar'
 import {
     themeProperty,
     axesProperties,

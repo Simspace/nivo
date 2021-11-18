@@ -3,8 +3,8 @@ import styled from 'styled-components'
 import { startCase, sum, random } from 'lodash'
 import { randomNormal } from 'd3-random'
 import { Meta } from '@storybook/react'
-import { ResponsiveWaffle } from '@nivo/waffle'
-import { ResponsiveBar } from '@nivo/bar'
+import { ResponsiveWaffle } from '@simspace/nivo-waffle'
+import { ResponsiveBar } from '@simspace/nivo-bar'
 // @ts-ignore
 import { ResponsiveFunnel, Funnel } from '../src'
 
@@ -230,8 +230,8 @@ const Sample = () => {
                 arbitrary clustering across each step.
                 <br />
                 Here we&apos;re using the <code>Waffle</code> component from the{' '}
-                <code>@nivo/waffle</code> package to show clustering by gender, and the{' '}
-                <code>Bar</code> component from <code>@nivo/bar</code> to show the repartition by
+                <code>@simspace/nivo-waffle</code> package to show clustering by gender, and the{' '}
+                <code>Bar</code> component from <code>@simspace/nivo-bar</code> to show the repartition by
                 age.
                 <br />
                 In order to align the charts with the funnel, we&apos;re using a CSS grid.

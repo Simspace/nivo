@@ -1,5 +1,5 @@
 import { mount } from 'enzyme'
-import { radiansToDegrees } from '@nivo/core'
+import { radiansToDegrees } from '@simspace/nivo-core'
 import { Pie } from '../src/index'
 
 const sampleData = [

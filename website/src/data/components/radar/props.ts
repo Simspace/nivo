@@ -1,5 +1,5 @@
-import { closedCurvePropKeys } from '@nivo/core'
-import { svgDefaultProps } from '@nivo/radar'
+import { closedCurvePropKeys } from '@simspace/nivo-core'
+import { svgDefaultProps } from '@simspace/nivo-radar'
 import {
     themeProperty,
     motionProperties,

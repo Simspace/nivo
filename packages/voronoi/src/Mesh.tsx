@@ -1,6 +1,6 @@
 import { useRef, useState, useCallback, useMemo } from 'react'
 import * as React from 'react'
-import { getRelativeCursor } from '@nivo/core'
+import { getRelativeCursor } from '@simspace/nivo-core'
 import { useVoronoiMesh } from './hooks'
 import { XYAccessor } from './computeMesh'
 

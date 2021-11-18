@@ -1,4 +1,4 @@
-import { useTheme } from '@nivo/core'
+import { useTheme } from '@simspace/nivo-core'
 import { SpringValue, Interpolation, animated } from '@react-spring/web'
 import { DatumWithArcAndColor } from '../types'
 

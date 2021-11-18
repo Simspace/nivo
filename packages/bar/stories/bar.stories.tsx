@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 import { withKnobs, boolean, select } from '@storybook/addon-knobs'
-import { generateCountriesData, sets } from '@nivo/generators'
+import { generateCountriesData, sets } from '@simspace/nivo-generators'
 import { random, range } from 'lodash'
-import { useTheme } from '@nivo/core'
+import { useTheme } from '@simspace/nivo-core'
 // @ts-ignore
 import { Bar, BarDatum } from '../src'
-import { AxisTickProps } from '@nivo/axes'
+import { AxisTickProps } from '@simspace/nivo-axes'
 
 const keys = ['hot dogs', 'burgers', 'sandwich', 'kebab', 'fries', 'donut']
 const commonProps = {

@@ -1,4 +1,4 @@
-import { NetworkDefaultProps } from '@nivo/network'
+import { NetworkDefaultProps } from '@simspace/nivo-network'
 import { motionProperties, groupProperties } from '../../../lib/componentProperties'
 import { ChartProperty } from '../../../types'
 

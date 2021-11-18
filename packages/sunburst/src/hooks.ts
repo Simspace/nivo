@@ -3,9 +3,9 @@ import { partition as d3Partition, hierarchy as d3Hierarchy } from 'd3-hierarchy
 import { scaleRadial as d3ScaleRadial } from 'd3-scale'
 import cloneDeep from 'lodash/cloneDeep'
 import sortBy from 'lodash/sortBy'
-import { usePropertyAccessor, useTheme, useValueFormatter } from '@nivo/core'
-import { Arc, useArcGenerator } from '@nivo/arcs'
-import { useOrdinalColorScale, useInheritedColor, InheritedColorConfig } from '@nivo/colors'
+import { usePropertyAccessor, useTheme, useValueFormatter } from '@simspace/nivo-core'
+import { Arc, useArcGenerator } from '@simspace/nivo-arcs'
+import { useOrdinalColorScale, useInheritedColor, InheritedColorConfig } from '@simspace/nivo-colors'
 import {
     SunburstCommonProps,
     ComputedDatum,

@@ -7,8 +7,8 @@ import {
     PropertyAccessor,
     ValueFormat,
     SvgDefsAndFill,
-} from '@nivo/core'
-import { InheritedColorConfig, OrdinalColorScaleConfig } from '@nivo/colors'
+} from '@simspace/nivo-core'
+import { InheritedColorConfig, OrdinalColorScaleConfig } from '@simspace/nivo-colors'
 
 export interface ComputedDatum<RawDatum> {
     id: string

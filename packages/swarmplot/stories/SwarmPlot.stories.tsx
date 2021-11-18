@@ -1,5 +1,5 @@
 import { storiesOf } from '@storybook/react'
-import { generateSwarmPlotData } from '@nivo/generators'
+import { generateSwarmPlotData } from '@simspace/nivo-generators'
 import { SwarmPlot } from '../src'
 import { SwarmPlotExtraLayers } from './SwarmPlotExtraLayers'
 import { SwarmPlotCustomCircle } from './SwarmPlotCustomCircle'

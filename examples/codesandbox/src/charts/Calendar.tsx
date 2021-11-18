@@ -1,5 +1,5 @@
-import { ResponsiveCalendar, ResponsiveCalendarCanvas } from '@nivo/calendar'
-import { generateDayCounts } from '@nivo/generators'
+import { ResponsiveCalendar, ResponsiveCalendarCanvas } from '@simspace/nivo-calendar'
+import { generateDayCounts } from '@simspace/nivo-generators'
 import { useChart } from '../hooks'
 
 const from = new Date(2019, 0, 1)

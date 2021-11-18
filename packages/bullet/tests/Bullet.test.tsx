@@ -1,5 +1,5 @@
 import { mount } from 'enzyme'
-import { AxisTickProps } from '@nivo/axes'
+import { AxisTickProps } from '@simspace/nivo-axes'
 import { Bullet, BulletItemProps, BulletRectsItemProps } from '../src'
 
 const sampleData = [

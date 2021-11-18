@@ -1,4 +1,4 @@
-import { BasicTooltip } from '@nivo/tooltip'
+import { BasicTooltip } from '@simspace/nivo-tooltip'
 import { CalendarTooltipProps } from './types'
 import { memo } from 'react'
 

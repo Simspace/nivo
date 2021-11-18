@@ -1,13 +1,13 @@
 import { useCallback, useMemo, useState } from 'react'
 import { pie as d3Pie } from 'd3-shape'
-import { useArcGenerator, computeArcBoundingBox } from '@nivo/arcs'
+import { useArcGenerator, computeArcBoundingBox } from '@simspace/nivo-arcs'
 import {
     degreesToRadians,
     radiansToDegrees,
     useValueFormatter,
     usePropertyAccessor,
-} from '@nivo/core'
-import { OrdinalColorScaleConfig, useOrdinalColorScale } from '@nivo/colors'
+} from '@simspace/nivo-core'
+import { OrdinalColorScaleConfig, useOrdinalColorScale } from '@simspace/nivo-colors'
 import { defaultProps } from './props'
 import { CompletePieSvgProps, ComputedDatum, DatumId, PieArc, PieCustomLayerProps } from './types'
 

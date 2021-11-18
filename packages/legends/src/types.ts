@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { SymbolProps } from './svg/symbols/types'
-import { CompleteTheme } from '@nivo/core'
+import { CompleteTheme } from '@simspace/nivo-core'
 
 /**
  * This can be used to add effect on legends on interaction.

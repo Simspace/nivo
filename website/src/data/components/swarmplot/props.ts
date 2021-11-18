@@ -1,4 +1,4 @@
-import { defaultProps } from '@nivo/swarmplot'
+import { defaultProps } from '@simspace/nivo-swarmplot'
 import {
     themeProperty,
     motionProperties,

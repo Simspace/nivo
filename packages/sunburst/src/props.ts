@@ -1,5 +1,5 @@
-import { ArcTransitionMode } from '@nivo/arcs'
-import { OrdinalColorScaleConfig } from '@nivo/colors'
+import { ArcTransitionMode } from '@simspace/nivo-arcs'
+import { OrdinalColorScaleConfig } from '@simspace/nivo-colors'
 import { SunburstTooltip } from './SunburstTooltip'
 import { SunburstLayerId } from './types'
 

@@ -1,4 +1,4 @@
-import { Axes, Grid } from '@nivo/axes'
+import { Axes, Grid } from '@simspace/nivo-axes'
 import { BarAnnotations } from './BarAnnotations'
 import { BarDatum, BarLayer, BarLayerId, BarSvgProps, ComputedBarDatumWithValue } from './types'
 import { BarLegends } from './BarLegends'
@@ -10,7 +10,7 @@ import {
     bindDefs,
     useDimensions,
     useMotionConfig,
-} from '@nivo/core'
+} from '@simspace/nivo-core'
 import { Fragment, ReactNode, createElement, useMemo } from 'react'
 import { svgDefaultProps } from './props'
 import { useTransition } from '@react-spring/web'

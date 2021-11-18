@@ -1,4 +1,4 @@
-import { TreeMapDefaultProps } from '@nivo/treemap'
+import { TreeMapDefaultProps } from '@simspace/nivo-treemap'
 import { motionProperties, defsProperties, groupProperties } from '../../../lib/componentProperties'
 import { ChartProperty } from '../../../types'
 

@@ -1,5 +1,5 @@
 {
-  "name": "@nivo/sunburst",
+  "name": "@simspace/nivo-sunburst",
   "version": "0.74.0",
   "license": "MIT",
   "author": {
@@ -29,20 +29,20 @@
     "!dist/tsconfig.tsbuildinfo"
   ],
   "dependencies": {
-    "@nivo/arcs": "0.74.0",
-    "@nivo/colors": "0.74.0",
-    "@nivo/tooltip": "0.74.0",
+    "@simspace/nivo-arcs": "0.74.0",
+    "@simspace/nivo-colors": "0.74.0",
+    "@simspace/nivo-tooltip": "0.74.0",
     "d3-hierarchy": "^1.1.8",
     "d3-scale": "^3.2.3",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@nivo/core": "0.74.0",
+    "@simspace/nivo-core": "0.74.0",
     "@types/d3-hierarchy": "^1.1.7",
     "@types/d3-scale": "^3.2.3"
   },
   "peerDependencies": {
-    "@nivo/core": "0.74.0",
+    "@simspace/nivo-core": "0.74.0",
     "react": ">= 16.14.0 < 18.0.0"
   },
   "publishConfig": {

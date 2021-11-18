@@ -1,5 +1,5 @@
 import { storiesOf } from '@storybook/react'
-import { generateSwarmPlotData } from '@nivo/generators'
+import { generateSwarmPlotData } from '@simspace/nivo-generators'
 import { SwarmPlotCanvas } from '../src'
 
 const commonProps = {

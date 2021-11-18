@@ -1,4 +1,4 @@
-import { commonDefaultProps, svgDefaultProps } from '@nivo/scatterplot'
+import { commonDefaultProps, svgDefaultProps } from '@simspace/nivo-scatterplot'
 import {
     themeProperty,
     axesProperties,

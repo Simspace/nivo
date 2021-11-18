@@ -10,10 +10,10 @@ import {
     AreaCurve,
     SvgDefsAndFill,
     ValueFormat,
-} from '@nivo/core'
-import { AxisProps, GridValues } from '@nivo/axes'
-import { InheritedColorConfig, OrdinalColorScaleConfig } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
+} from '@simspace/nivo-core'
+import { AxisProps, GridValues } from '@simspace/nivo-axes'
+import { InheritedColorConfig, OrdinalColorScaleConfig } from '@simspace/nivo-colors'
+import { LegendProps } from '@simspace/nivo-legends'
 
 export type StreamLayerId = 'grid' | 'axes' | 'layers' | 'dots' | 'slices' | 'legends'
 

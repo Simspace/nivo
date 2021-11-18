@@ -10,8 +10,8 @@ import {
     stackOrderFromProp,
     // @ts-ignore
     stackOffsetFromProp,
-} from '@nivo/core'
-import { useInheritedColor, useOrdinalColorScale } from '@nivo/colors'
+} from '@simspace/nivo-core'
+import { useInheritedColor, useOrdinalColorScale } from '@simspace/nivo-colors'
 import {
     StreamCommonProps,
     StreamCustomLayerProps,

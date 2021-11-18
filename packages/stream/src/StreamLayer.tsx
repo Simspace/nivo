@@ -1,8 +1,8 @@
 import { useCallback, createElement } from 'react'
 import { useSpring, animated } from '@react-spring/web'
-import { useAnimatedPath, useMotionConfig } from '@nivo/core'
-import { InheritedColorConfigCustomFunction } from '@nivo/colors'
-import { useTooltip } from '@nivo/tooltip'
+import { useAnimatedPath, useMotionConfig } from '@simspace/nivo-core'
+import { InheritedColorConfigCustomFunction } from '@simspace/nivo-colors'
+import { useTooltip } from '@simspace/nivo-tooltip'
 import { StreamCommonProps, StreamDatum, StreamLayerData } from './types'
 
 interface StreamLayerProps<RawDatum extends StreamDatum> {

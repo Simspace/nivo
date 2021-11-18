@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { radiansToDegrees, positionFromAngle, degreesToRadians } from '@nivo/core'
+import { radiansToDegrees, positionFromAngle, degreesToRadians } from '@simspace/nivo-core'
 import { DatumWithArc } from './types'
 
 /**

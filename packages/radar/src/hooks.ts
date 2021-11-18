@@ -6,8 +6,8 @@ import {
     useCurveInterpolation,
     usePropertyAccessor,
     useValueFormatter,
-} from '@nivo/core'
-import { useOrdinalColorScale } from '@nivo/colors'
+} from '@simspace/nivo-core'
+import { useOrdinalColorScale } from '@simspace/nivo-colors'
 import { svgDefaultProps } from './props'
 import {
     RadarColorMapping,

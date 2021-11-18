@@ -1,7 +1,7 @@
 import {
   ResponsiveScatterPlot,
   ResponsiveScatterPlotCanvas,
-} from '@nivo/scatterplot'
+} from '@simspace/nivo-scatterplot'
 import { random, range } from '../utils'
 import { useChart } from '../hooks'
 

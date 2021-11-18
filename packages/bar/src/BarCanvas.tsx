@@ -6,7 +6,7 @@ import {
     isCursorInRect,
     useDimensions,
     useTheme,
-} from '@nivo/core'
+} from '@simspace/nivo-core'
 import {
     ForwardedRef,
     createElement,
@@ -21,10 +21,10 @@ import {
     renderAnnotationsToCanvas,
     useAnnotations,
     useComputedAnnotations,
-} from '@nivo/annotations'
-import { renderAxesToCanvas, renderGridLinesToCanvas } from '@nivo/axes'
-import { renderLegendToCanvas } from '@nivo/legends'
-import { useTooltip } from '@nivo/tooltip'
+} from '@simspace/nivo-annotations'
+import { renderAxesToCanvas, renderGridLinesToCanvas } from '@simspace/nivo-axes'
+import { renderLegendToCanvas } from '@simspace/nivo-legends'
+import { useTooltip } from '@simspace/nivo-tooltip'
 import { useBar } from './hooks'
 
 declare module 'react' {

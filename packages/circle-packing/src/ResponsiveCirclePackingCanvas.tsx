@@ -1,4 +1,4 @@
-import { ResponsiveWrapper } from '@nivo/core'
+import { ResponsiveWrapper } from '@simspace/nivo-core'
 import { CirclePackingCanvasProps } from './types'
 import { CirclePackingCanvas } from './CirclePackingCanvas'
 

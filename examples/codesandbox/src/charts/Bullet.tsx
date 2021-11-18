@@ -1,5 +1,5 @@
-import { ResponsiveBullet } from '@nivo/bullet'
-import { generateBulletData } from '@nivo/generators'
+import { ResponsiveBullet } from '@simspace/nivo-bullet'
+import { generateBulletData } from '@simspace/nivo-generators'
 import { useChart } from '../hooks'
 
 const props = {

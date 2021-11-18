@@ -1,11 +1,11 @@
 import * as React from 'react'
 import { Interpolation, SpringValue } from '@react-spring/web'
 import { ForceX, ForceY, ForceCollide } from 'd3-force'
-import { PropertyAccessor, ValueFormat, Theme, ModernMotionProps, Box, Margin } from '@nivo/core'
-import { InheritedColorConfig, OrdinalColorScaleConfig } from '@nivo/colors'
-import { AxisProps, CanvasAxisProp } from '@nivo/axes'
-import { ScaleLinear, ScaleLinearSpec, ScaleTime, ScaleTimeSpec, TicksSpec } from '@nivo/scales'
-import { AnnotationMatcher } from '@nivo/annotations'
+import { PropertyAccessor, ValueFormat, Theme, ModernMotionProps, Box, Margin } from '@simspace/nivo-core'
+import { InheritedColorConfig, OrdinalColorScaleConfig } from '@simspace/nivo-colors'
+import { AxisProps, CanvasAxisProp } from '@simspace/nivo-axes'
+import { ScaleLinear, ScaleLinearSpec, ScaleTime, ScaleTimeSpec, TicksSpec } from '@simspace/nivo-scales'
+import { AnnotationMatcher } from '@simspace/nivo-annotations'
 import { ScaleOrdinal } from 'd3-scale'
 
 export interface ComputedDatum<RawDatum> {

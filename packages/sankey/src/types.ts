@@ -8,9 +8,9 @@ import {
     ModernMotionProps,
     PropertyAccessor,
     ValueFormat,
-} from '@nivo/core'
-import { InheritedColorConfig, OrdinalColorScaleConfig } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
+} from '@simspace/nivo-core'
+import { InheritedColorConfig, OrdinalColorScaleConfig } from '@simspace/nivo-colors'
+import { LegendProps } from '@simspace/nivo-legends'
 
 export interface SankeyRawNode {
     id: string

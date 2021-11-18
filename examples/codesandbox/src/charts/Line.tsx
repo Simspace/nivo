@@ -1,5 +1,5 @@
-import { ResponsiveLine, ResponsiveLineCanvas } from '@nivo/line'
-import { generateDrinkStats } from '@nivo/generators'
+import { ResponsiveLine, ResponsiveLineCanvas } from '@simspace/nivo-line'
+import { generateDrinkStats } from '@simspace/nivo-generators'
 import { useChart } from '../hooks'
 
 const props = {

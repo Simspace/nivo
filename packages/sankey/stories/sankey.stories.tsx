@@ -1,5 +1,5 @@
 import { Meta } from '@storybook/react'
-import { generateSankeyData, randColor } from '@nivo/generators'
+import { generateSankeyData, randColor } from '@simspace/nivo-generators'
 import { SankeyNodeMinimal } from 'd3-sankey'
 // @ts-ignore
 import { Sankey } from '../src'

@@ -1,4 +1,4 @@
-import { defaultProps as defaults, offsetById } from '@nivo/marimekko'
+import { defaultProps as defaults, offsetById } from '@simspace/nivo-marimekko'
 import {
     themeProperty,
     defsProperties,

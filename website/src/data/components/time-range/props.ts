@@ -1,5 +1,5 @@
-import { boxAlignments } from '@nivo/core'
-import { timeRangeDefaultProps as defaults } from '@nivo/calendar'
+import { boxAlignments } from '@simspace/nivo-core'
+import { timeRangeDefaultProps as defaults } from '@simspace/nivo-calendar'
 import { themeProperty, getLegendsProps, groupProperties } from '../../../lib/componentProperties'
 import { ChartProperty } from '../../../types'
 

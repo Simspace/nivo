@@ -1,4 +1,4 @@
-import { ChordDefaultProps as defaults } from '@nivo/chord'
+import { ChordDefaultProps as defaults } from '@simspace/nivo-chord'
 import {
     themeProperty,
     motionProperties,

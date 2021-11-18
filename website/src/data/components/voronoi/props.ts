@@ -1,4 +1,4 @@
-import { defaultVoronoiProps } from '@nivo/voronoi'
+import { defaultVoronoiProps } from '@simspace/nivo-voronoi'
 import { groupProperties } from '../../../lib/componentProperties'
 import { ChartProperty } from '../../../types'
 

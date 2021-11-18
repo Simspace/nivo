@@ -9,12 +9,12 @@ import {
     CssMixBlendMode,
     CartesianMarkerProps,
     PropertyAccessor,
-} from '@nivo/core'
-import { ScaleSpec } from '@nivo/scales'
-import { OrdinalColorScaleConfig } from '@nivo/colors'
-import { AxisProps, GridValues } from '@nivo/axes'
-import { LegendProps } from '@nivo/legends'
-import { AnnotationMatcher } from '@nivo/annotations'
+} from '@simspace/nivo-core'
+import { ScaleSpec } from '@simspace/nivo-scales'
+import { OrdinalColorScaleConfig } from '@simspace/nivo-colors'
+import { AxisProps, GridValues } from '@simspace/nivo-axes'
+import { LegendProps } from '@simspace/nivo-legends'
+import { AnnotationMatcher } from '@simspace/nivo-annotations'
 
 // the types supported for x/y values
 export type ScatterPlotValue = number | string | Date

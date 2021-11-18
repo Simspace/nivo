@@ -1,5 +1,5 @@
 {
-  "name": "@nivo/funnel",
+  "name": "@simspace/nivo-funnel",
   "version": "0.74.0",
   "license": "MIT",
   "author": {
@@ -29,18 +29,18 @@
     "!dist/tsconfig.tsbuildinfo"
   ],
   "dependencies": {
-    "@nivo/annotations": "0.74.0",
-    "@nivo/colors": "0.74.0",
-    "@nivo/tooltip": "0.74.0",
+    "@simspace/nivo-annotations": "0.74.0",
+    "@simspace/nivo-colors": "0.74.0",
+    "@simspace/nivo-tooltip": "0.74.0",
     "@react-spring/web": "9.2.6",
     "d3-scale": "^3.2.3",
     "d3-shape": "^1.3.5"
   },
   "devDependencies": {
-    "@nivo/core": "0.74.0"
+    "@simspace/nivo-core": "0.74.0"
   },
   "peerDependencies": {
-    "@nivo/core": "0.74.0",
+    "@simspace/nivo-core": "0.74.0",
     "react": ">= 16.14.0 < 18.0.0"
   },
   "publishConfig": {

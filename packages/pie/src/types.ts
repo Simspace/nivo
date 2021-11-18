@@ -7,16 +7,16 @@ import {
     ModernMotionProps,
     ValueFormat,
     PropertyAccessor,
-} from '@nivo/core'
+} from '@simspace/nivo-core'
 import {
     Arc,
     ArcGenerator,
     ArcTransitionMode,
     ArcLabelsProps,
     ArcLinkLabelsProps,
-} from '@nivo/arcs'
-import { OrdinalColorScaleConfig, InheritedColorConfig } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
+} from '@simspace/nivo-arcs'
+import { OrdinalColorScaleConfig, InheritedColorConfig } from '@simspace/nivo-colors'
+import { LegendProps } from '@simspace/nivo-legends'
 
 export type DatumId = string | number
 

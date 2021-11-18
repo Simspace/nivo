@@ -1,6 +1,6 @@
 import { Calendar } from './Calendar'
 import { CalendarSvgProps } from './types'
-import { ResponsiveWrapper } from '@nivo/core'
+import { ResponsiveWrapper } from '@simspace/nivo-core'
 
 export const ResponsiveCalendar = (props: Omit<CalendarSvgProps, 'height' | 'width'>) => (
     <ResponsiveWrapper>

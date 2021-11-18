@@ -1,6 +1,6 @@
 import { mount } from 'enzyme'
 // @ts-ignore
-import { linearGradientDef, patternDotsDef } from '@nivo/core'
+import { linearGradientDef, patternDotsDef } from '@simspace/nivo-core'
 // @ts-ignore
 import { Sunburst } from '../src'
 

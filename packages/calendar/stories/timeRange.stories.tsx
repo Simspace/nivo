@@ -1,6 +1,6 @@
 import { storiesOf } from '@storybook/react'
 import { withKnobs, number, date, boolean, color } from '@storybook/addon-knobs'
-import { generateOrderedDayCounts, generateDayCounts } from '@nivo/generators'
+import { generateOrderedDayCounts, generateDayCounts } from '@simspace/nivo-generators'
 
 import { TimeRange, ResponsiveTimeRange } from '../src'
 

@@ -1,6 +1,6 @@
 import { storiesOf } from '@storybook/react'
-import { generateBulletData } from '@nivo/generators'
-import { BasicTooltip } from '@nivo/tooltip'
+import { generateBulletData } from '@simspace/nivo-generators'
+import { BasicTooltip } from '@simspace/nivo-tooltip'
 import { withKnobs, boolean, number } from '@storybook/addon-knobs'
 import { Bullet } from '../src'
 

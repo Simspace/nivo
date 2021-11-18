@@ -1,5 +1,5 @@
-import { OrdinalColorScaleConfig } from '@nivo/colors'
-import { ArcTransitionMode } from '@nivo/arcs'
+import { OrdinalColorScaleConfig } from '@simspace/nivo-colors'
+import { ArcTransitionMode } from '@simspace/nivo-arcs'
 import { PieTooltip } from './PieTooltip'
 
 export const defaultProps = {

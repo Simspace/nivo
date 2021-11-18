@@ -1,4 +1,4 @@
-import { WaffleDefaultProps } from '@nivo/waffle'
+import { WaffleDefaultProps } from '@simspace/nivo-waffle'
 import {
     themeProperty,
     motionProperties,

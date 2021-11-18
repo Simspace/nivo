@@ -1,6 +1,6 @@
-import { Margin } from '@nivo/core'
-import { OrdinalColorScale } from '@nivo/colors'
-import { Scale, ScaleBand, computeScale } from '@nivo/scales'
+import { Margin } from '@simspace/nivo-core'
+import { OrdinalColorScale } from '@simspace/nivo-colors'
+import { Scale, ScaleBand, computeScale } from '@simspace/nivo-scales'
 import { BarDatum, BarSvgProps, ComputedBarDatum, ComputedDatum } from '../types'
 import { coerceValue, filterNullValues, getIndexScale, normalizeData } from './common'
 
