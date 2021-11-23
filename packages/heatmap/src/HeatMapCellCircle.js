@@ -9,7 +9,7 @@
 import { memo } from 'react'
 import PropTypes from 'prop-types'
 import { useSpring, animated } from '@react-spring/web'
-import { useTheme, useMotionConfig } from '@nivo/core'
+import { useTheme, useMotionConfig } from '@simspace/nivo-core'
 
 const HeatMapCellCircle = ({
     data,

@@ -9,7 +9,7 @@
 import { memo } from 'react'
 import PropTypes from 'prop-types'
 import { useSpring, animated } from '@react-spring/web'
-import { useAnimatedPath, useMotionConfig } from '@nivo/core'
+import { useAnimatedPath, useMotionConfig } from '@simspace/nivo-core'
 import { useSerieHandlers } from './hooks'
 
 const Line = ({

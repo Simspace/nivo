@@ -8,7 +8,7 @@
  */
 import { memo } from 'react'
 import PropTypes from 'prop-types'
-import { BasicTooltip } from '@nivo/tooltip'
+import { BasicTooltip } from '@simspace/nivo-tooltip'
 
 const HeatMapCellTooltip = ({ cell, format, tooltip }) => (
     <BasicTooltip

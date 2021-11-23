@@ -6,7 +6,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import { withContainer, useDimensions } from '@nivo/core'
+import { withContainer, useDimensions } from '@simspace/nivo-core'
 import { TreeMapHtmlPropTypes, TreeMapHtmlDefaultProps } from './props'
 import { useTreeMap } from './hooks'
 import TreeMapNodes from './TreeMapNodes'

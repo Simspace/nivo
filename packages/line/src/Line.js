@@ -14,11 +14,11 @@ import {
     useTheme,
     SvgWrapper,
     CartesianMarkers,
-} from '@nivo/core'
-import { useInheritedColor } from '@nivo/colors'
-import { Axes, Grid } from '@nivo/axes'
-import { BoxLegendSvg } from '@nivo/legends'
-import { Crosshair } from '@nivo/tooltip'
+} from '@simspace/nivo-core'
+import { useInheritedColor } from '@simspace/nivo-colors'
+import { Axes, Grid } from '@simspace/nivo-axes'
+import { BoxLegendSvg } from '@simspace/nivo-legends'
+import { Crosshair } from '@simspace/nivo-tooltip'
 import { useLine } from './hooks'
 import { LinePropTypes, LineDefaultProps } from './props'
 import Areas from './Areas'

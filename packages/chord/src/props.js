@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
-import { blendModePropType, motionPropTypes } from '@nivo/core'
-import { ordinalColorsPropType, inheritedColorPropType } from '@nivo/colors'
-import { LegendPropShape } from '@nivo/legends'
+import { blendModePropType, motionPropTypes } from '@simspace/nivo-core'
+import { ordinalColorsPropType, inheritedColorPropType } from '@simspace/nivo-colors'
+import { LegendPropShape } from '@simspace/nivo-legends'
 import ChordArcTooltip from './ChordArcTooltip'
 import ChordRibbonTooltip from './ChordRibbonTooltip'
 

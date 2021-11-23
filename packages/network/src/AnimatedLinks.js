@@ -9,7 +9,7 @@
 import { memo } from 'react'
 import PropTypes from 'prop-types'
 import { TransitionMotion, spring } from 'react-motion'
-import { useMotionConfig } from '@nivo/core'
+import { useMotionConfig } from '@simspace/nivo-core'
 import Link from './Link'
 
 const willEnter = ({ style, data }) => {

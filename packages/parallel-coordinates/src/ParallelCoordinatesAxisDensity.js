@@ -8,7 +8,7 @@
  */
 import { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import { motionPropTypes } from '@nivo/core'
+import { motionPropTypes } from '@simspace/nivo-core'
 import ParallelCoordinatesAxisDensityCircles from './ParallelCoordinatesAxisDensityCircles'
 import ParallelCoordinatesAxisDensityPoly from './ParallelCoordinatesAxisDensityPoly'
 

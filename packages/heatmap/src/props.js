@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { quantizeColorScalePropType, noop } from '@nivo/core'
-import { inheritedColorPropType } from '@nivo/colors'
-import { axisPropType } from '@nivo/axes'
+import { quantizeColorScalePropType, noop } from '@simspace/nivo-core'
+import { inheritedColorPropType } from '@simspace/nivo-colors'
+import { axisPropType } from '@simspace/nivo-axes'
 
 export const HeatMapPropTypes = {
     data: PropTypes.arrayOf(PropTypes.object).isRequired,

@@ -8,7 +8,7 @@
  */
 import { memo } from 'react'
 import PropTypes from 'prop-types'
-import { TableTooltip } from '@nivo/tooltip'
+import { TableTooltip } from '@simspace/nivo-tooltip'
 
 const ParallelCoordinatesLineTooltip = ({ data, variables }) => {
     return (

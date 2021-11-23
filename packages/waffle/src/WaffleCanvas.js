@@ -8,9 +8,9 @@
  */
 import { Component } from 'react'
 import range from 'lodash/range'
-import { setDisplayName } from '@nivo/recompose'
-import { isCursorInRect, getRelativeCursor, LegacyContainer } from '@nivo/core'
-import { renderLegendToCanvas } from '@nivo/legends'
+import { setDisplayName } from '@simspace/nivo-recompose'
+import { isCursorInRect, getRelativeCursor, LegacyContainer } from '@simspace/nivo-core'
+import { renderLegendToCanvas } from '@simspace/nivo-legends'
 import enhance from './enhance'
 import { WaffleCanvasPropTypes } from './props'
 import WaffleCellTooltip from './WaffleCellTooltip'

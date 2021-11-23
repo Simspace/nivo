@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { lineCurvePropType, blendModePropType, motionPropTypes, defsPropTypes } from '@nivo/core'
-import { ordinalColorsPropType } from '@nivo/colors'
-import { axisPropType } from '@nivo/axes'
-import { LegendPropShape } from '@nivo/legends'
+import { lineCurvePropType, blendModePropType, motionPropTypes, defsPropTypes } from '@simspace/nivo-core'
+import { ordinalColorsPropType } from '@simspace/nivo-colors'
+import { axisPropType } from '@simspace/nivo-axes'
+import { LegendPropShape } from '@simspace/nivo-legends'
 import PointTooltip from './PointTooltip'
 import SliceTooltip from './SliceTooltip'
 

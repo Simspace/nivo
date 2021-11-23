@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { motionPropTypes, blendModePropType } from '@nivo/core'
-import { ordinalColorsPropType, inheritedColorPropType } from '@nivo/colors'
-import { axisPropType } from '@nivo/axes'
+import { motionPropTypes, blendModePropType } from '@simspace/nivo-core'
+import { ordinalColorsPropType, inheritedColorPropType } from '@simspace/nivo-colors'
+import { axisPropType } from '@simspace/nivo-axes'
 import AreaTooltip from './AreaTooltip'
 
 const commonPropTypes = {

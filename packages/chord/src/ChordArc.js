@@ -1,6 +1,6 @@
 import { createElement, memo, useMemo } from 'react'
 import PropTypes from 'prop-types'
-import { useTooltip } from '@nivo/tooltip'
+import { useTooltip } from '@simspace/nivo-tooltip'
 
 const ChordArc = memo(
     ({

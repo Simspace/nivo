@@ -9,8 +9,8 @@
 import { memo } from 'react'
 import PropTypes from 'prop-types'
 import { useSprings, animated } from '@react-spring/web'
-import { useTheme, useMotionConfig } from '@nivo/core'
-import { inheritedColorPropType } from '@nivo/colors'
+import { useTheme, useMotionConfig } from '@simspace/nivo-core'
+import { inheritedColorPropType } from '@simspace/nivo-colors'
 import { useSeriesLabels } from './hooks'
 
 const AreasLabels = ({ series, position, padding, color }) => {

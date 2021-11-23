@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 import { useCallback } from 'react'
-import { SvgWrapper, withContainer, useDimensions } from '@nivo/core'
-import { Axes, Grid } from '@nivo/axes'
-import { useTooltip } from '@nivo/tooltip'
+import { SvgWrapper, withContainer, useDimensions } from '@simspace/nivo-core'
+import { Axes, Grid } from '@simspace/nivo-axes'
+import { useTooltip } from '@simspace/nivo-tooltip'
 import { HeatMapSvgPropTypes, HeatMapSvgDefaultProps } from './props'
 import { useHeatMap } from './hooks'
 import HeatMapCells from './HeatMapCells'

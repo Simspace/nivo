@@ -6,9 +6,9 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import { withDimensions, withTheme, withMotion, bindDefs } from '@nivo/core'
-import { getOrdinalColorScale, getInheritedColorGenerator } from '@nivo/colors'
-import { compose, defaultProps, withPropsOnChange, withState, pure } from '@nivo/recompose'
+import { withDimensions, withTheme, withMotion, bindDefs } from '@simspace/nivo-core'
+import { getOrdinalColorScale, getInheritedColorGenerator } from '@simspace/nivo-colors'
+import { compose, defaultProps, withPropsOnChange, withState, pure } from '@simspace/nivo-recompose'
 import * as props from './props'
 import { computeGrid } from './compute'
 

@@ -8,9 +8,9 @@
  */
 import { useCallback, useMemo, useState } from 'react'
 import { area, line } from 'd3-shape'
-import { curveFromProp, useTheme, useValueFormatter } from '@nivo/core'
-import { useOrdinalColorScale, useInheritedColor } from '@nivo/colors'
-import { computeXYScalesForSeries } from '@nivo/scales'
+import { curveFromProp, useTheme, useValueFormatter } from '@simspace/nivo-core'
+import { useOrdinalColorScale, useInheritedColor } from '@simspace/nivo-colors'
+import { computeXYScalesForSeries } from '@simspace/nivo-scales'
 import { LineDefaultProps } from './props'
 
 export const useLineGenerator = ({ curve }) => {

@@ -9,7 +9,7 @@
 import { createElement, memo } from 'react'
 import PropTypes from 'prop-types'
 import { useTransition } from '@react-spring/web'
-import { useMotionConfig } from '@nivo/core'
+import { useMotionConfig } from '@simspace/nivo-core'
 import { useInteractiveTreeMapNodes } from './hooks'
 
 const getAnimatedNodeProps = node => {

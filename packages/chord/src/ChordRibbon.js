@@ -1,7 +1,7 @@
 import { createElement, memo, useMemo } from 'react'
 import PropTypes from 'prop-types'
-import { blendModePropType } from '@nivo/core'
-import { useTooltip } from '@nivo/tooltip'
+import { blendModePropType } from '@simspace/nivo-core'
+import { useTooltip } from '@simspace/nivo-tooltip'
 
 const ChordRibbon = memo(
     ({

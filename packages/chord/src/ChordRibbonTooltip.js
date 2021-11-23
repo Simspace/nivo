@@ -1,7 +1,7 @@
 import { memo } from 'react'
 import PropTypes from 'prop-types'
-import { useTheme } from '@nivo/core'
-import { TableTooltip, Chip } from '@nivo/tooltip'
+import { useTheme } from '@simspace/nivo-core'
+import { TableTooltip, Chip } from '@simspace/nivo-tooltip'
 
 const ChordRibbonTooltip = memo(({ ribbon }) => {
     const theme = useTheme()

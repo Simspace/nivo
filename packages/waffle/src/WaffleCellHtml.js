@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { pure } from '@nivo/recompose'
+import { pure } from '@simspace/nivo-recompose'
 
 const WaffleCellHtml = ({
     position,

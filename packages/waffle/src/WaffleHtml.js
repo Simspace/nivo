@@ -8,9 +8,9 @@
  */
 import { createElement, Component, Fragment } from 'react'
 import partial from 'lodash/partial'
-import { setDisplayName } from '@nivo/recompose'
+import { setDisplayName } from '@simspace/nivo-recompose'
 import { TransitionMotion, spring } from 'react-motion'
-import { LegacyContainer } from '@nivo/core'
+import { LegacyContainer } from '@simspace/nivo-core'
 import enhance from './enhance'
 import { WaffleHtmlPropTypes } from './props'
 import { applyDataToGrid } from './compute'

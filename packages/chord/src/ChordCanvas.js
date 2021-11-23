@@ -7,11 +7,11 @@ import {
     getPolarLabelProps,
     degreesToRadians,
     getRelativeCursor,
-} from '@nivo/core'
-import { findArcUnderCursor } from '@nivo/arcs'
-import { useInheritedColor } from '@nivo/colors'
-import { renderLegendToCanvas } from '@nivo/legends'
-import { useTooltip } from '@nivo/tooltip'
+} from '@simspace/nivo-core'
+import { findArcUnderCursor } from '@simspace/nivo-arcs'
+import { useInheritedColor } from '@simspace/nivo-colors'
+import { renderLegendToCanvas } from '@simspace/nivo-legends'
+import { useTooltip } from '@simspace/nivo-tooltip'
 import { useChord, useChordSelection, useChordLayerContext } from './hooks'
 import { ChordCanvasPropTypes, ChordCanvasDefaultProps } from './props'
 

@@ -6,7 +6,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import { SvgWrapper, withContainer, useDimensions, bindDefs } from '@nivo/core'
+import { SvgWrapper, withContainer, useDimensions, bindDefs } from '@simspace/nivo-core'
 import { TreeMapDefaultProps, TreeMapPropTypes } from './props'
 import { useTreeMap } from './hooks'
 import TreeMapNodes from './TreeMapNodes'

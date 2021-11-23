@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 import { createElement, Fragment, useCallback } from 'react'
-import { withContainer, useDimensions, SvgWrapper, useTheme, useMotionConfig } from '@nivo/core'
-import { useInheritedColor } from '@nivo/colors'
-import { useTooltip } from '@nivo/tooltip'
+import { withContainer, useDimensions, SvgWrapper, useTheme, useMotionConfig } from '@simspace/nivo-core'
+import { useInheritedColor } from '@simspace/nivo-colors'
+import { useTooltip } from '@simspace/nivo-tooltip'
 import { NetworkPropTypes, NetworkDefaultProps } from './props'
 import { useNetwork, useNodeColor, useLinkThickness } from './hooks'
 import AnimatedNodes from './AnimatedNodes'

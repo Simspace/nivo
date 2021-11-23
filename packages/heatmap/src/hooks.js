@@ -5,8 +5,8 @@ import {
     usePropertyAccessor,
     guessQuantizeColorScale,
     getLabelGenerator,
-} from '@nivo/core'
-import { useInheritedColor } from '@nivo/colors'
+} from '@simspace/nivo-core'
+import { useInheritedColor } from '@simspace/nivo-colors'
 
 const computeX = (column, cellWidth, padding) => {
     return column * cellWidth + cellWidth * 0.5 + padding * column + padding

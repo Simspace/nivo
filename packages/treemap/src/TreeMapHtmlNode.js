@@ -9,7 +9,7 @@
 import { memo } from 'react'
 import PropTypes from 'prop-types'
 import { animated } from '@react-spring/web'
-import { useTheme } from '@nivo/core'
+import { useTheme } from '@simspace/nivo-core'
 
 const TreeMapHtmlNode = ({
     node,

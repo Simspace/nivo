@@ -8,8 +8,8 @@
  */
 import { useEffect, useRef } from 'react'
 import PropTypes from 'prop-types'
-import { useDimensions, useTheme, withContainer } from '@nivo/core'
-import { renderAxisToCanvas } from '@nivo/axes'
+import { useDimensions, useTheme, withContainer } from '@simspace/nivo-core'
+import { renderAxisToCanvas } from '@simspace/nivo-axes'
 import { commonPropTypes, commonDefaultProps } from './props'
 import { useParallelCoordinates } from './hooks'
 

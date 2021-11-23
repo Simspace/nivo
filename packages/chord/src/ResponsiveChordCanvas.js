@@ -1,4 +1,4 @@
-import { ResponsiveWrapper } from '@nivo/core'
+import { ResponsiveWrapper } from '@simspace/nivo-core'
 import ChordCanvas from './ChordCanvas'
 
 const ResponsiveChordCanvas = props => (
