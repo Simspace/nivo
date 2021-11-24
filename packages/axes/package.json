@@ -1,6 +1,6 @@
 {
   "name": "@simspace/nivo-axes",
-  "version": "0.74.1",
+  "version": "0.74.2",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -33,7 +33,7 @@
     "d3-time-format": "^3.0.0"
   },
   "devDependencies": {
-    "@simspace/nivo-core": "0.74.1",
+    "@simspace/nivo-core": "0.74.2",
     "@types/d3-format": "^1.4.1",
     "@types/d3-time-format": "^2.3.1"
   },

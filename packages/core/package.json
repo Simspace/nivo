@@ -1,6 +1,6 @@
 {
   "name": "@simspace/nivo-core",
-  "version": "0.74.1",
+  "version": "0.74.2",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -34,7 +34,7 @@
     "resize-observer-polyfill": "^1.5.1"
   },
   "devDependencies": {
-    "@simspace/nivo-tooltip": "0.74.1",
+    "@simspace/nivo-tooltip": "0.74.2",
     "@types/d3-shape": "^2.0.0"
   },
   "peerDependencies": {
