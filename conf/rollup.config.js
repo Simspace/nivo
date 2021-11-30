@@ -47,7 +47,8 @@ const common = {
         || id.indexOf('d3') === 0
         || id.indexOf('@nivo') === 0
         || id.indexOf('lodash') === 0
-        || id.indexOf('@react-spring') === 0,
+        || id.indexOf('@react-spring') === 0
+        || id.indexOf('@simspace') === 0,
 }
 
 const commonPlugins = [
