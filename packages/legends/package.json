@@ -1,7 +1,7 @@
 {
   "name": "@simspace/nivo-legends",
   "description": "legend components for nivo dataviz library",
-  "version": "0.74.2",
+  "version": "0.74.3",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -22,7 +22,7 @@
     "!dist/tsconfig.tsbuildinfo"
   ],
   "devDependencies": {
-    "@simspace/nivo-core": "0.74.2"
+    "@simspace/nivo-core": "0.74.3"
   },
   "peerDependencies": {
     "@simspace/nivo-core": "0.74.0",

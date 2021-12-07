@@ -1,6 +1,6 @@
 {
   "name": "@simspace/nivo-heatmap",
-  "version": "0.74.2",
+  "version": "0.74.3",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -29,13 +29,13 @@
   ],
   "dependencies": {
     "@react-spring/web": "9.2.6",
-    "@simspace/nivo-axes": "0.74.2",
-    "@simspace/nivo-colors": "0.74.2",
-    "@simspace/nivo-tooltip": "0.74.2",
+    "@simspace/nivo-axes": "0.74.3",
+    "@simspace/nivo-colors": "0.74.3",
+    "@simspace/nivo-tooltip": "0.74.3",
     "d3-scale": "^3.2.3"
   },
   "devDependencies": {
-    "@simspace/nivo-core": "0.74.2"
+    "@simspace/nivo-core": "0.74.3"
   },
   "peerDependencies": {
     "@simspace/nivo-core": "0.74.0",

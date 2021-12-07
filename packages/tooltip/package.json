@@ -1,6 +1,6 @@
 {
   "name": "@simspace/nivo-tooltip",
-  "version": "0.74.2",
+  "version": "0.74.3",
   "license": "MIT",
   "author": {
     "name": "Raphaël Benitte",
@@ -24,7 +24,7 @@
     "@react-spring/web": "9.2.6"
   },
   "devDependencies": {
-    "@simspace/nivo-core": "0.74.2"
+    "@simspace/nivo-core": "0.74.3"
   },
   "peerDependencies": {
     "@simspace/nivo-core": "0.74.0"
